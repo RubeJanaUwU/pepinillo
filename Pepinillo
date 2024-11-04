@@ -7,7 +7,6 @@
 	<title>Todos los ejercicios</title>
 		<main>
 <a href="https://descubriendoespanha.com/" target=_blank>Descubriendo espanha
-<h2>Ejercicio 14</h2>
 <a id="1"> </a>
 <a href="https://open.spotify.com/intl-es" target="_blank">spotify</a><br>
 <a href="https://es.wikipedia.org/wiki/Imperio_romano" target="_blank">Imperio romano</a><br>
@@ -15,8 +14,89 @@
 
 <p> <span class=pregunta>¿Que tal estas? </p></span>
 <p> <span class=respuesta>muy bien gracias </p></span> 
-
+  	    	<p>Seleccion tu pais:</p>
+  	    	<select name="pais">
+  	    	<optgroup label="Europa">
+  	    	<option value="9">España</option>
+  	    	<option value="10">Rusia</option>	
+  	    	<option value="11">Italia</option>
+  	    	</optgroup>
+  	    	<optgroup label="Latam">
+  	    		<option value="12">Peru</option>
+  	    		<option value="13">Chile</option>
+  	    		<option value="14">Venezuela</option>
+  	    	</optgroup>
+  	    </select>
+  	    <br><input type="submit" name="enviar">
+<fieldset>
+  	    		<legend> Eliga su pizza a su gusto</legend>
+  	    		  	    	<label for="pizza1">pizza</label>
+  	    	<select name="Pizzas" id="pizza1">
+  	    	<option value="15">Peperroni</option>
+  	    	<option value="16">Queso</option>
+  	    	<option value="17">Carne</option>
+  	    	<option value="18">Queso azul</option>
+  	    </select>
+  	    <label for="cantidad">Cantidad</label>
+  	    <select name="cantidad" id="cantidad">
+  	      	    	<option value="15">1</option>
+  	      	    	<option value="16">2</option>
+ 	    	  	    	<option value="17">3</option>
+   	  	  	    	<option value="18">4</option>
+   	  	  	    </select><br>
+  	      	    	<label for="pizza2">pizza</label>
+  	    	  	    	<select name="Pizzas" id="pizza2">
+  	    	<option value="15">Peperroni</option>
+  	    	<option value="16">Queso</option>
+  	    	<option value="17">Carne</option>
+  	    	<option value="18">Queso azul</option>
+  	    </select>
+  	    	  	    <label for="cantidad2">Cantidad</label>
+  	    <select name="cantidad" id="cantidad2">
+  	      	    	<option value="15">1</option>
+  	      	    	<option value="16">2</option>
+ 	    	  	    	<option value="17">3</option>
+   	  	  	    	<option value="18">4</option>
+   	  	  	    </select><br>
+  	      	    	<label for="pizza3">pizza</label>
+  	    	  	    	<select name="Pizzas" id="pizza3">
+  	    	<option value="15" >Peperroni</option>	    	
+  	    	<option value="16" >Queso</option>
+  	    	<option value="17">Carne</option>
+  	    	<option value="18">Queso azul</option>
+  	    </select>
+  	    <label for="cantidad3">Cantidad</label>
+  	    	  	    <select name="cantidad" id="cantidad3">
+  	      	    	<option value="15">1</option>
+  	      	    	<option value="16">2</option>
+ 	    	  	    	<option value="17">3</option>
+   	  	  	    	<option value="18">4</option>
+   	  	  	    </select><br>
+   	  	  <label for="pizza4">pizza</label>
+  	    	<select name="Pizzas" id="pizza4">
+  	    	<option value="15" >Peperroni</option>	    	
+  	    	<option value="16" >Queso</option>
+  	    	<option value="17">Carne</option>
+  	    	<option value="18">Queso azul</option>
+  	    </select>
+    <label for="cantidad4">Cantidad</label>
+    <select name="cantidad" id="cantidad4">
+  	<option value="15">1</option>
+  	<option value="16">2</option>
+  	<option value="17">3</option>
+  	<option value="18">4</option>
+	    </select><br>
+  	    </fieldset>
+  	    <fieldset>
+  	    <legend>Datos personales</legend>
+  	    <label for="nombre3">nombre</label>
+  	    <input type="text" name="nombre" id="nombre3"><br>
+  	    <label for="correo3">correo</label>
+  	    <input type="email" name="correo" id="correo3"><br>
+  	    <label for="contraseña3">contraseña</label>
+  	    <input type="password" name="contraseña" id="contraseña3"><br>
+  	    </fieldset>
+  	    <input type="submit" name="enviar">	
 </main>
-
 </body>
 </html>
