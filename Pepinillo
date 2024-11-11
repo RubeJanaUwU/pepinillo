@@ -1,29 +1,52 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
+	
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Todos los ejercicios</title>
+	<title>¿Que miras?</title>
 		<main>
-<a href="https://descubriendoespanha.com/" target=_blank>Descubriendo espanha
-<a id="1"> </a>
-<a href="https://open.spotify.com/intl-es" target="_blank">spotify</a><br>
-<a href="https://es.wikipedia.org/wiki/Imperio_romano" target="_blank">Imperio romano</a><br>
-<a href="https://cafedelnorte.es" target="_blank">Cafe</a><br>
-<p>Antojitos de media noche(no ver si tienes hambre)</p>
-<a href="https://es.pinterest.com/pin/840413980464451194/">Canned food</a>
-<a href="https://es.pinterest.com/pin/840413980464451223/">food</a>
-<a href="https://es.pinterest.com/pin/68747461616/">food</a>
-<a href="https://es.pinterest.com/pin/que-rico-desayuno--1060738518461331408/">food</a>
-<a href="https://es.pinterest.com/pin/41799102784524641/">food</a>
-<a href="https://es.pinterest.com/pin/1099863540241897361/">food</a>
-<a href="https://es.pinterest.com/pin/70437486576947/">food</a>
-<img src="foto1.PNG" alt="Foto1">
 
+			<img src="pizzahub.jpg">
+			<h2> en nuestra casa podras encontrar y elegir entre nuestros cuatro mejores ingredientes y la cantidad que deseas </h2>
 
-<p> <span class=pregunta>¿Que tal estas? </p></span>
-<p> <span class=respuesta>muy bien gracias </p></span> 
+			<h3>Reviews de pizzas</h3>
+			<p>Pizza cuatro quesos</p>
+			<p> Esta pizza es de la mas tipicas y que siempre funciona cuando pedimos </p>
+			<img src="pizzaqueso.jpg">
+			<p> Clasificacion</p>
+			<p> textura:8</p>
+			<p> sabor:9</p>
+			<p> mezcla de ingredientes:8,5</p>
+			<p>Nota media:8,5</p>
+
+			<p>pizza con piña</p>
+			<p> Esta pizza es de las cosas peores echas por la humanidad, una combinacion entre salado y dulce nunca va a funcionar</p>
+			<img src="pizzaconpiña.jpg">
+			<p> Clasificacion</p>
+			<p> textura:6</p>
+			<p> sabor:2</p>
+			<p> mezcla de ingredientes:0</p>
+			<p>Nota media:2.6</p>
+
+			<p>Pizza barbacoa</p>
+			<p> Esta pizza logra una buena combinacion entre la salsa y la carne, dando un sabor exquisito </p>
+			<img src="pizzabarbacoa.jpg">
+			<p> Clasificacion</p>
+			<p> textura:9</p>
+			<p> sabor:10</p>
+			<p> mezcla de ingredientes:9</p>
+			<p>Nota media:9.5</p>
+
+			<p>Pizza burger</p>
+			<p> Esta pizza o hamburguesa, cuenta con una combinacion extraña pero jugosa </p>
+			<img src="pizzaburguer.jpg">
+			<p> Clasificacion</p>
+			<p> textura:9</p>
+			<p> sabor:8</p>
+			<p> mezcla de ingredientes:10</p>
+			<p>Nota media:9 </p>
+			<h2>Ahora selecciona tu pais y haz una pizza a tu gusto con los mejores 4 ingredientes de la casa</h2>
   	    	<p>Seleccion tu pais:</p>
   	    	<select name="pais">
   	    	<optgroup label="Europa">
@@ -32,15 +55,15 @@
   	    	<option value="11">Italia</option>
   	    	</optgroup>
   	    	<optgroup label="Latam">
-  	    		<option value="12">Peru</option>
-  	    		<option value="13">Chile</option>
+  	    	<option value="12">Peru</option>
+  	    	<option value="13">Chile</option>
   	    		<option value="14">Venezuela</option>
   	    	</optgroup>
   	    </select>
   	    <br><input type="submit" name="enviar">
 <fieldset>
-  	    		<legend> Eliga su pizza a su gusto</legend>
-  	    		  	    	<label for="pizza1">pizza</label>
+	<legend> Eliga su pizza a su gusto</legend>
+  	    	<label for="pizza1">pizza</label>
   	    	<select name="Pizzas" id="pizza1">
   	    	<option value="15">Peperroni</option>
   	    	<option value="16">Queso</option>
@@ -63,9 +86,10 @@
   	    </select>
   	    	  	    <label for="cantidad2">Cantidad</label>
   	    <select name="cantidad" id="cantidad2">
+  	    			<option value="20">0</option>
   	      	    	<option value="15">1</option>
   	      	    	<option value="16">2</option>
- 	    	  	    	<option value="17">3</option>
+ 	    	  	    <option value="17">3</option>
    	  	  	    	<option value="18">4</option>
    	  	  	    </select><br>
   	      	    	<label for="pizza3">pizza</label>
@@ -77,9 +101,10 @@
   	    </select>
   	    <label for="cantidad3">Cantidad</label>
   	    	  	    <select name="cantidad" id="cantidad3">
+  	    	  	    <option value="20">0</option>
   	      	    	<option value="15">1</option>
   	      	    	<option value="16">2</option>
- 	    	  	    	<option value="17">3</option>
+ 	    	  	    <option value="17">3</option>
    	  	  	    	<option value="18">4</option>
    	  	  	    </select><br>
    	  	  <label for="pizza4">pizza</label>
@@ -91,6 +116,7 @@
   	    </select>
     <label for="cantidad4">Cantidad</label>
     <select name="cantidad" id="cantidad4">
+   	<option value="20">0</option>
   	<option value="15">1</option>
   	<option value="16">2</option>
   	<option value="17">3</option>
@@ -106,7 +132,13 @@
   	    <label for="contraseña3">contraseña</label>
   	    <input type="password" name="contraseña" id="contraseña3"><br>
   	    </fieldset>
+  	    <h2>Lugar de la ubicacion
+  	    <img src="fonde.png">
   	    <input type="submit" name="enviar">	
+
+  	    		
+
+
 </main>
 </body>
 </html>
